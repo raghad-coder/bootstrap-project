@@ -178,21 +178,21 @@
 
 
   <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark" style="width: 280px;">
-    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+    <a href="" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
       <i class="bi bi-lightning-fill"></i>
       <span class="fs-4">Sidebar</span>
     </a>
     <hr>
     <ul class="nav nav-pills flex-column mb-auto">
       <li class="nav-item">
-        <a href="#" class="nav-link text-white " aria-current="page">
+        <a href="/" class="nav-link text-white " aria-current="page">
           <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#home"/></svg>
           Home
         </a>
       </li>
      
       <li>
-        <a href="../user/add.html" class="nav-link text-white active">
+        <a href="../user/add.html" class="nav-link text-white ">
           <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"/></svg>
           Add Customers
         </a>
@@ -224,85 +224,76 @@
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <button class="btn btn-outline-success" type="submit" >Search</button>
       </form>
     </div>
   </nav>
  
-  <form class=" g-3 row mx-0 mt-3">
 
-    <div class=" col-md-6">
-      <label for="inputFistName" class="form-label">First Name</label>
-      <input type="text" class="form-control" placeholder="dida...." aria-label="First name">
-    </div>
+  <nav style="width : 80%" class="  px-2 d-flex mt-3 justify-content-md-between flex-wrap" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page"> dida khaled </li>
+    </ol>
+    <p  > <span class="fw-medium fs-4"> id : </span>  1645133365955623</p>
+  </nav>
 
-    <div class=" col-md-6">
-      <label for="inputLastName" class="form-label">Last Name</label>
-      <input type="text" class="form-control" placeholder="khaled...." aria-label="Last name">
-    </div>
+  <table style="width : 80%" class=" ms-1 p-2 table table-bordered text-start ">
+    <tbody>
+      <tr>
+        <th scope="col">First Name</th>
+        <td >dida</td>
+      </tr>
+        <tr>
+            <th scope="row">Last Name</th>
+            <td>khaled</td>
+        </tr>
+        <tr>
+            <th scope="row">Telephone</th>
+            <td>010068665958</td>
+        </tr>
+        <tr>
+            <th scope="row">Email</th>
+            <td>dida@gmail.com</td>
 
-    <div class="col-md-6">
-      <label for="inputEmail4" class="form-label">Email : </label>
-      <input type="email" class="form-control"  placeholder="dida@gmail.com..." id="inputEmail4">
-    </div>
-
-    <div class="col-md-6">
-      <label for="inputTelephone" class="form-label">Telephone</label>
-      <input type="number" class="form-control" placeholder="01006444464" >
-    </div>
-
-    <div>
-      <div class="col-12 col-md-6">
-        <label for="inputAge" class="form-label">Age</label>
-        <input type="number" class="form-control" placeholder="0" aria-label="Age" placeholder="your age">
-      </div>
-    </div>
-    
-    <div>
-      <div class="col-12 col-md-6">
-        <label for="inputGender" class="form-label">Gender</label>
-        <select class="form-select" id="inputGender" >
-          <option selected hidden disabled> choose here..</option>
-          <option >male</option>
-          <option >female</option>
-        </select>
-      </div>
-    </div>
-
-    <div>
-      <div class="col-12 col-md-6">
-        <label for="inputcountry" class="form-label">country</label>
-        <select class="form-select" id="inputcountry" >
-          <option selected hidden disabled> choose here..</option>
-          <option >morcoo</option>
-          <option >egypt</option>
-          <option >USA</option>
-        </select>
-      </div>
-    </div>
-
- <div class="d-flex justify-content-start  gap-2">
-    <button type="button" class="btn btn-primary btn-lg">update changes</button>
-    <button type="button" class="btn btn-danger btn-lg">Delete user</button>
- </div>
-
-
-  </form>
-
-  
-
+        </tr>
+        <tr>
+            <th scope="row">Gender</th>
+            <td>female</td>
+        </tr>
+        <tr>
+            <th scope="row">Age</th>
+            <td >5</td>
+        </tr>
+        <tr>
+            <th scope="row">Country</th>
+            <td >egypt</td>
+        </tr>
+        <tr>
+            <th scope="row">created on </th>
+            <td> test </td>
+        </tr>
+        <tr>
+            <th scope="row">last update</th>
+            <td>5 may 2022</td>
+        </tr>
+            
+            
+            
+           
+            
+            
+    </tbody>
+  </table>
 
 </section>
-
+  
 
 
 
 
 
 </main>
-
-
-
 <script src="./js/bootstrap.bundle.min.js"></script>
 
     <script src="./js/sidebars.js"></script></body>
