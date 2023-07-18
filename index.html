@@ -174,9 +174,11 @@
 
 
   <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark Sidebar Sidebar-small" style="width: 280px;">
-    <a href="">
-      <i class="bi bi-arrow-right-circle-fill"></i>
-    </a>
+   <button>
+    <i class="bi bi-arrow-right-circle-fill"></i>
+   </button>
+      
+
     <a href="" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
       <i class="bi bi-lightning-fill"></i>
       <span class="fs-4">Sidebar</span>
@@ -218,14 +220,30 @@
 <section class="w-100 text-center">
   <nav class=" display:flex navbar bg-body-tertiary">
     <div class=" container-fluid justify-content-center justify-content-md-between">
-      
+
+
+
       <a class=" fs-4 fw-medium font-monospace navbar-brand">
-        <button class="btn"><i class="bi bi-list"></i></button>
+        <button class=" myButton btn ">
+          <style>
+            .bi-list::before{
+                font-size: 2rem;
+                transform:scalex(1.4);
+                
+            }
+  
+            .myButton:hover{
+              border: 1px solid white;
+            }
+            </style>
+          <i class="bi bi-list"></i></button>
         Courses
       </a>
+
+
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        
+
         <button class="btn btn-outline-success" type="submit" >Search</button>
       </form>
     </div>
@@ -260,16 +278,11 @@
 
       </tr>
 
-   
     </tbody>
   </table>
   
 </section>
   
-
-
-
-
 
 </main>
 <script src="./js/bootstrap.bundle.min.js"></script>
